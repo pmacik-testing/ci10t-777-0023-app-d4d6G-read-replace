@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-sdbd
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0023-tenant/ci10t-777-0023-app/devfile-sample-sdbd@sha256:06490e83c9e9ebaf50916667b6daf11147564394bbb3289da8a41962acd2060f
         name: my-nodejs
         ports:
         - containerPort: 3001
